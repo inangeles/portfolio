@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.bigheader {
+    background: url(https://i.ibb.co/CMS0MCK/Photooooo-1.jpg) no-repeat center top;
+    margin-top: -70px;
+	padding-top: 250px;
+	text-align:left;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 650px;
+    width: 100%;
+    background-size: 100%;
+    background-size: cover;
+}
+
+.airkeepheader {
+    background: url(https://i.ibb.co/rkQ89dY/Frame-1.png) no-repeat center top;
+    margin-top: -70px;
+	padding-top: 250px;
+	text-align:left;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 650px;
+    width: 100%;
+    background-size: 100%;
+    background-size: cover;
+}
+
+.headertext h1 {
+	color:#000000;
+	padding-top: 50px;
+	padding-bottom: 20px;
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.air-headertext h1 { 
+    color:#ffffff;
+	padding-top: 50px;
+	padding-bottom: 20px;
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.projectitle h2 {
+    font-size: 31px;
+    font-weight: bold;
+    text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+
+.insta {
+    text-align: center;
+}
+
+#footerwrap {
+	padding-top: 30px;
+	padding-bottom: 20px;
+    background-color: #2f2f2f;
+    width: 100%;
+}
+
+#footerwrap p {
+	color: #f2f2f2;
+}
+
+.insight img {
+    width: auto;
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.eliana img {
+    width: 550px;
+    height: auto;
+    text-align: right;
+}
+
+.group img {
+    width: auto;
+    height: 700px;
+    text-align: right;
+}
+
+.contexto {
+    padding-top: 80px;
+}
+
+.rrss {
+    text-align: right;
+}
+
+.mm {
+    padding-left: 220px;
+}
+
+.right {
+    padding-left: 900px;
+}
+
+.navbar {
+    color: #2f2f2f;
+}
+
+.ideas {
+    text-align: left;
+}
+
+.alta img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 800px;
+    width: auto;
+}
+
+.interview img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    width: auto;
+}
