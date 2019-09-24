@@ -13,233 +13,225 @@
    Base Styles, Bootstrap Modifications & Fonts Import
    ========================================================================== */
 
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap');
+   @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap');
 
 
-::-moz-selection {
-    background: #f2c2c9;
-    color: #a4003a;
-    text-shadow: none;
-}
-
-::selection {
-    background: #16a085;
-    color: #a4003a;
-    text-shadow: none;
-}
-
-/*
- * A better looking default horizontal rule
- */
-
- hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
-}
-
-.centered {
-	text-align: center
-}
-
-.mt {
-	margin-top: 80px;
-}
-
-.mb {
-	margin-bottom: 80px;
-}
-
-/* ==========================================================================
-   General styles
-   ========================================================================== */
-
-
-body {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-
-    -webkit-font-smoothing: antialiased;
-    -webkit-overflow-scrolling: touch;
-}
-
-h1, h2, h3, h4, h5, h6 {
-	font-weight: 700;
-    color: #4a4a4a;
-}
-
-
-.navbar-brand {
-	font-weight: 700;
-}
-
-.navbar-default .navbar-brand {
-	color: #ffffff;
-}
-
-.navbar-default {
-	background-color: transparent;
-	border-color: transparent;
-}
-
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	color: #ffffff;
-	background-color: transparent;
-}
-
-.navbar-default .navbar-nav > li > a {
-	color: #ffffff;
-}
-
-
-/* ==========================================================================
-   Wrap Sections
-   ========================================================================== */
-
-#headerwrap {
-	background: url(https://i.ibb.co/PZjMfs6/postits-opacity-2.jpg) no-repeat center top;
-	margin-top: -70px;
-	padding-top: 250px;
-	text-align:left;
-	background-attachment: relative;
-	background-position: center center;
-	min-height: 650px;
-	width: 100%;
-	
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
-
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-#headerwrap h1 {
-	color:#ffffff;
-	padding-top: 10px;
-	padding-bottom: 20px;
-	font-size: 80px;
-}
-
-#headerwrap h4 {
-	font-weight: 300;
-	color: #ffffff
-}
-
-#social {
-	padding-top: 50px;
-	padding-bottom: 50px;
-	background-color: #f2f2f2;
-}
-
-#social i {
-	font-size: 40px;
-	color: #4a4a4a
-}
-
-#social i:hover {
-	color: #1abc9c
-}
-
-#footerwrap {
-	padding-top: 30px;
-	padding-bottom: 20px;
-	background-color: #2f2f2f;
-}
-
-#footerwrap p {
-	color: #f2f2f2;
-}
-
-#workwrap {	
-	background: url(https://i.ibb.co/CMS0MCK/Photooooo-1.jpg) no-repeat center top;
-	margin-top: -70px;
-	padding-top: 250px;
-	text-align:left;
-	background-attachment: relative;
-	background-position: center center;
-	min-height: 650px;
-	width: 100%;
-	
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
-
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-#workwrap h1 {
-	color:#000000;
-	padding-top: 10px;
-	padding-bottom: 20px;
-	font-size: 80px;
-}
-
-#workwrap h3 {
-	font-weight: 400;
-	color: #000000;
-}
-
-#aboutwrap {	
-	background: url(https://i.ibb.co/3TT2SL8/ina-copy.jpg) no-repeat center top;
-	margin-top: -70px;
-	padding-top: 250px;
-	text-align:left;
-	background-attachment: relative;
-	background-position: center center;
-	min-height: 650px;
-	width: 100%;
-	
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
-
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-
-
-
-/* Gallery */
-.gallery {
-	margin-top: 30px;
-}
-
-.gallery img {
-	width: 600px;
-    height: 375px;
-}
-
-.gallery img:hover {
-	opacity: 0.4;
-}
-
-
-/* Papel Bijoux*/
-#works p {
-	font-size: 18px;
-	text-align: left;
-}
-
-.gallery-background {
-    width: 400px;
-    height: 250px;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-}
+   ::-moz-selection {
+	   background: #f2c2c9;
+	   color: #a4003a;
+	   text-shadow: none;
+   }
+   
+   ::selection {
+	   background: #16a085;
+	   color: #a4003a;
+	   text-shadow: none;
+   }
+   
+   /*
+	* A better looking default horizontal rule
+	*/
+   
+   hr {
+	   display: block;
+	   height: 1px;
+	   border: 0;
+	   border-top: 1px solid #ccc;
+	   margin: 1em 0;
+	   padding: 0;
+   }
+   
+   .centered {
+	   text-align: center
+   }
+   
+   .mt {
+	   margin-top: 80px;
+   }
+   
+   .mb {
+	   margin-bottom: 80px;
+   }
+   
+   /* ==========================================================================
+	  General styles
+	  ========================================================================== */
+   
+   
+   body {
+	   font-family: 'Roboto', sans-serif;
+	   font-weight: 400;
+	   font-size: 16px;
+   
+	   -webkit-font-smoothing: antialiased;
+	   -webkit-overflow-scrolling: touch;
+   }
+   
+   h1,
+   h2,
+   h3,
+   h4,
+   h5,
+   h6 {
+	   font-weight: 700;
+	   color: #4a4a4a;
+   }
+   
+   .navbar-brand {
+	   font-weight: 700;
+   }
+   
+   .bg-dark {
+	   background-color: transparent !important;
+   }
+   
+   .navbar-nav {
+	   font-weight: 500;
+   }
+   
+   
+   
+   /* ==========================================================================
+	  Wrap Sections
+	  ========================================================================== */
+   
+   #headerwrap {
+	   background: url(https://i.ibb.co/PZjMfs6/postits-opacity-2.jpg) no-repeat center top;
+	   margin-top: -70px;
+	   padding-top: 250px;
+	   text-align: left;
+	   background-attachment: relative;
+	   background-position: center center;
+	   min-height: 650px;
+	   width: 100%;
+   
+	   -webkit-background-size: 100%;
+	   -moz-background-size: 100%;
+	   -o-background-size: 100%;
+	   background-size: 100%;
+   
+	   -webkit-background-size: cover;
+	   -moz-background-size: cover;
+	   -o-background-size: cover;
+	   background-size: cover;
+   }
+   
+   #headerwrap h1 {
+	   color: #ffffff;
+	   padding-top: 10px;
+	   padding-bottom: 20px;
+	   font-size: 80px;
+   }
+   
+   #headerwrap h4 {
+	   font-weight: 300;
+	   color: #ffffff
+   }
+   
+   #footerwrap {
+	   padding-top: 30px;
+	   padding-bottom: 20px;
+	   background-color: #2E2E2E;
+   }
+   
+   #footerwrap p {
+	   margin-top: 9px;
+	   color: #f2f2f2;
+   }
+   
+   .icons {
+	   text-align: right;
+	   font-size: 27px;
+   }
+   
+   .mail, .linkdin, .insta {
+	   color: white;
+	   margin-left: 7px;
+   }
+   
+   #workwrap {
+	   background: url(https://i.ibb.co/CMS0MCK/Photooooo-1.jpg) no-repeat center top;
+	   margin-top: -70px;
+	   padding-top: 250px;
+	   text-align: left;
+	   background-attachment: relative;
+	   background-position: center center;
+	   min-height: 650px;
+	   width: 100%;
+   
+	   -webkit-background-size: 100%;
+	   -moz-background-size: 100%;
+	   -o-background-size: 100%;
+	   background-size: 100%;
+   
+	   -webkit-background-size: cover;
+	   -moz-background-size: cover;
+	   -o-background-size: cover;
+	   background-size: cover;
+   }
+   
+   #workwrap h1 {
+	   color: #000000;
+	   padding-top: 10px;
+	   padding-bottom: 20px;
+	   font-size: 80px;
+   }
+   
+   #workwrap h3 {
+	   font-weight: 400;
+	   color: #000000;
+   }
+   
+   #aboutwrap {
+	   background: url(https://i.ibb.co/3TT2SL8/ina-copy.jpg) no-repeat center top;
+	   margin-top: -70px;
+	   padding-top: 250px;
+	   text-align: left;
+	   background-attachment: relative;
+	   background-position: center center;
+	   min-height: 650px;
+	   width: 100%;
+   
+	   -webkit-background-size: 100%;
+	   -moz-background-size: 100%;
+	   -o-background-size: 100%;
+	   background-size: 100%;
+   
+	   -webkit-background-size: cover;
+	   -moz-background-size: cover;
+	   -o-background-size: cover;
+	   background-size: cover;
+   }
+   
+   
+   
+   
+   /* Gallery */
+   .gallery {
+	   margin-top: 30px;
+   }
+   
+   .gallery img {
+	   width: 600px;
+	   height: 375px;
+   }
+   
+   .gallery img:hover {
+	   opacity: 0.4;
+   }
+   
+   
+   /* Papel Bijoux*/
+   #works p {
+	   font-size: 18px;
+	   text-align: left;
+   }
+   
+   .gallery-background {
+	   width: 400px;
+	   height: 250px;
+	   background-size: cover;
+	   background-position: center center;
+	   background-repeat: no-repeat;
+   }
+   
