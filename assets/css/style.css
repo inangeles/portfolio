@@ -238,3 +238,11 @@
    .ina p {
 	   font-size: 18px;
    }
+
+   .gallery h4 {
+	   text-align: left;
+   }
+
+   .projectTitle {
+	   margin-top: 10px;
+   }
