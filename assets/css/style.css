@@ -183,7 +183,7 @@
    }
    
    #aboutwrap {
-	   background: url(https://i.ibb.co/z8tkmKX/inita-copy.jpg) no-repeat center top;
+	   background: url(https://i.ibb.co/PZjMfs6/postits-opacity-2.jpg) no-repeat center top;
 	   margin-top: -70px;
 	   padding-top: 250px;
 	   text-align: left;
@@ -202,6 +202,19 @@
 	   -o-background-size: cover;
 	   background-size: cover;
    }
+
+   #aboutwrap h1 {
+	color: #ffffff;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	font-size: 80px;
+}
+
+#aboutwrap h4 {
+	font-weight: 300;
+	color: #ffffff
+}
+
    
    
    

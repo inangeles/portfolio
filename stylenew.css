@@ -83,8 +83,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .insight img {
-    width: auto;
-    height: 500px;
+    width: 80%;
+    height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -139,11 +139,11 @@ h1, h2, h3, h4, h5, h6 {
     width: auto;
 }
 
-.interview img {
+.interview img{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 500px;
+    height: 100%;
     width: auto;
 }
 
@@ -156,3 +156,26 @@ h1, h2, h3, h4, h5, h6 {
     background-size: 100%;
     padding-bottom: 150px;
 }
+
+.observ {
+    margin-top: 50px;
+}
+
+.metodologia {
+  width: 100%;
+}
+
+
+.cincotext {
+    margin-top: 120px;
+}
+
+
+.brainstormIdeas {
+    margin-top: 20%;
+}
+
+.mockup {
+    text-align: center;
+}
+
